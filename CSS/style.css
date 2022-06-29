@@ -1,8 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import "reset.css";
-@import "components/status-bar.css";
+
+/*screens*/
 @import "screens/index-welcome.css";
 @import "screens/index-login.css";
+
+/*components*/
+@import "components/status-bar.css";
 @import "components/friends.css";
+@import "components/header-info.css";
+@import "components/nav-bar.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e363e;
+}
 
 body:not(.index) {
   height: 1000vh;
