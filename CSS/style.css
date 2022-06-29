@@ -2,7 +2,7 @@
 @import "components/status-bar.css";
 @import "screens/index-welcome.css";
 @import "screens/index-login.css";
-@import "components/nav.css";
+@import "components/friends.css";
 
 body:not(.index) {
   height: 1000vh;
