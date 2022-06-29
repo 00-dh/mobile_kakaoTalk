@@ -1,0 +1,45 @@
+.nav-bar__control {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  border-top: 1px solid grey;
+  background-color: #f9f9fa;
+}
+
+.nav-bar__icon {
+  padding: 25px;
+  color: #2e363e;
+  position: relative;
+}
+
+@keyframes notification {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav-bar__notification {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  animation: notification 2s ease-in-out infinite;
+}
