@@ -1,0 +1,46 @@
+.nav-bar__control {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  border-top: 1px solid grey;
+  background-color: #f9f9fa;
+}
+
+.nav-bar__icon {
+  padding: 25px;
+  color: #2e363e;
+}
+
+.friends-info {
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.friends-info__title {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.friends-info__icon {
+  display: flex;
+  align-items: center;
+}
+
+.friends-info__icon a {
+  color: #2e363e;
+}
+
+.friends-info__icon a:nth-child(2) {
+  margin: 0px 10px;
+}
