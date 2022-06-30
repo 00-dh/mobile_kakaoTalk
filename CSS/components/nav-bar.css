@@ -11,8 +11,11 @@
 
 .nav-bar__icon {
   padding: 25px;
-  color: #2e363e;
   position: relative;
+}
+
+.nav-bar__icon a {
+  color: #2e363e;
 }
 
 @keyframes notification {
@@ -28,16 +31,6 @@
 }
 
 .nav-bar__notification {
-  display: block;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: tomato;
-  color: white;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   top: 15px;
   right: 15px;
