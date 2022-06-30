@@ -25,6 +25,6 @@
   color: #2e363e;
 }
 
-.friends-info__icon a:nth-child(2) {
-  margin: 0px 10px;
+.friends-info__icon i {
+  margin-left: 15px;
 }
