@@ -24,18 +24,20 @@
 
     <nav class="nav-bar">
       <ul class="nav-bar__control">
-        <li href="friends.html" class="nav-bar__icon">
-          <i class="fa-solid fa-user fa-2x"></i>
+        <li class="nav-bar__icon">
+          <a href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
         </li>
-        <li href="#" class="nav-bar__icon">
-          <i class="fa-regular fa-comment fa-2x"></i>
-          <span class="nav-bar__notification">1</span>
+        <li class="nav-bar__icon">
+          <a href="chat.html"><i class="fa-regular fa-comment fa-2x"></i> </a>
+          <span class="nav-bar__notification badge">1</span>
         </li>
-        <li href="#" class="nav-bar__icon">
-          <i class="fa-regular fa-bookmark fa-2x"></i>
+        <li class="nav-bar__icon">
+          <a href="find.html"><i class="fa-regular fa-bookmark fa-2x"></i></a>
         </li>
-        <li href="#" class="nav-bar__icon">
-          <i class="fa-regular fa-address-card fa-2x"></i>
+        <li class="nav-bar__icon">
+          <a href="setting.html"
+            ><i class="fa-regular fa-address-card fa-2x"></i
+          ></a>
         </li>
       </ul>
     </nav>
@@ -45,19 +47,27 @@
         <h1>Friends</h1>
       </div>
       <div class="friends-info__icon">
-        <a href="#"> <i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+        <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
         <a href="#"><i class="fa-solid fa-music fa-lg"></i></a>
         <a href="#"><i class="fa-solid fa-gear fa-lg"></i></a>
       </div>
     </header>
 
-    <div class="account">
-      <img src="다운로드.jpeg" class="account__profile" />
-      <p class="account__name">요정 웡키</p>
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="images (1).jpeg" class="user-component__avatar" />
+        <div class="user-component__text">
+          <h4 class="user-component__title">Kim DH</h4>
+          <h6 class="user-component__subtitle">this is my text</h6>
+        </div>
+      </div>
     </div>
 
     <div class="ch">
-      <div></div>
+      <div class="ch-status">
+        <span>channel</span>
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
     </div>
 
     <script
