@@ -4,12 +4,15 @@
 /*screens*/
 @import "screens/index-welcome.css";
 @import "screens/index-login.css";
+@import "screens/main-chat.css";
 
 /*components*/
 @import "components/status-bar.css";
 @import "components/friends.css";
 @import "components/header-info.css";
 @import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 body {
   font-family: "Roboto", sans-serif;
