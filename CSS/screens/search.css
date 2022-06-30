@@ -1,0 +1,38 @@
+.search-box {
+  padding: 140px 0px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-box__items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #2e363e;
+}
+
+.search-box__items i {
+  margin-bottom: 10px;
+}
+
+.search-friends {
+  position: relative;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search-friends p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search-friends__title {
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
