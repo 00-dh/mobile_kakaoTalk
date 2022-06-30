@@ -18,7 +18,11 @@
   align-items: center;
 }
 
-.ch {
+.ch-status {
   margin: 0px 30px;
-  border-top: 1px solid red;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  color: rgba(0, 0, 0, 0.5);
 }
