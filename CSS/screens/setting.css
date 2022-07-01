@@ -1,4 +1,5 @@
-.setting-box {
+.setting-box__1row {
+  margin-top: 17.5px;
   display: flex;
   justify-content: space-around;
 }
