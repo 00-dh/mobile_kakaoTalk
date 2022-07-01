@@ -48,3 +48,15 @@
   display: flex;
   justify-content: center;
 }
+
+.user-component__Setting {
+  display: flex;
+  align-items: center;
+}
+.user-component__Setting h6 {
+  margin: 5px;
+}
+
+.user-component__Setting i {
+  color: tomato;
+}
