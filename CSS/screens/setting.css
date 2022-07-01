@@ -1,0 +1,17 @@
+.setting-box {
+  display: flex;
+  justify-content: space-around;
+}
+.setting-box__2row {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.setting-box__icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
