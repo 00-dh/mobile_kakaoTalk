@@ -2,7 +2,8 @@
   z-index: 3;
   background-color: #f9f9fa;
   display: flex;
-  padding: 10px;
+  padding: 0px 10px;
+  padding-bottom: 10px;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
@@ -14,6 +15,11 @@
 
 .status-bar__column:first-child span {
   margin-right: 5px;
+}
+
+.status-bar__column:first-child {
+  display: flex;
+  align-items: center;
 }
 
 .status-bar__column:nth-child(2) {
