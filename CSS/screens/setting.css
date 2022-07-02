@@ -1,18 +1,61 @@
-.setting-box__1row {
-  margin-top: 17.5px;
+.setting-header {
+  position: fixed;
+  width: 100%;
+  padding: 0px 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   display: flex;
-  justify-content: space-around;
-}
-.setting-box__2row {
-  display: flex;
-  justify-content: space-around;
-  margin: 10px 10px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9fa;
+  box-sizing: border-box;
 }
 
-.setting-box__icon {
+.setting-header i {
+  color: #2e363e;
+}
+
+.setting-header h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.setting-account-box {
+  padding: 25px;
+  padding-top: 90px;
+}
+
+.setting-account-box span {
+  font-size: 20px;
+}
+
+.setting-account-box__tool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.setting-account-box__tool:last-child {
+  border: none;
+}
+
+.setting-account-box__tool__name {
   display: flex;
   align-items: center;
-  flex-direction: column;
+}
+
+.setting-account-box__tool__name i {
+  margin-right: 10px;
+}
+
+.setting-account-box__tool__notification:last-child {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.setting-division {
+  width: 100%;
+  height: 1px;
+  background-color: #2e363e;
 }
