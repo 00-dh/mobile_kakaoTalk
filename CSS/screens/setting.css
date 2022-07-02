@@ -22,6 +22,9 @@
 
 .setting-account-box {
   padding: 25px;
+}
+
+.setting-account-box:first-child {
   padding-top: 90px;
 }
 
