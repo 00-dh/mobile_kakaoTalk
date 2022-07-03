@@ -3,6 +3,10 @@
   padding-bottom: 15px;
 }
 
+.chatroom a {
+  text-decoration: none;
+}
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -17,6 +21,7 @@
 
 .user-component__text {
   margin-left: 20px;
+  color: #2e363e;
 }
 
 .user-component__title {
