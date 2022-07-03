@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats in KakaoTalk</title>
+  </head>
+  <body id="chatroom">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>12:32</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+      </div>
+    </div>
+
+    <header class="setting-header">
+      <div class="setting-header__column">
+        <a href="chat.html"><i class="fa-solid fa-angle-left fa-lg"></i></a>
+      </div>
+      <div class="setting-header__column">
+        <h4>Kakao</h4>
+      </div>
+      <div class="setting-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-chatscreen chat">
+      <div class="main-chatscreen__timestamp">Sunday, 03 July, 2022</div>
+      <div class="message-row">
+        <img src="profile.png" />
+        <div class="message-row__content">
+          <span class="message-row__author">Kakao</span>
+          <div class="message-row__info">
+            <span class="message__bubble">Hello!</span>
+            <span class="message__time">21:23</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message-row__info">
+            <span class="message__bubble">What's up?</span>
+            <span class="message__time">21:23</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/b9df1fece5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
