@@ -17,12 +17,24 @@
   z-index: 1;
 }
 
+@keyframes fadeIN {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .main-chatscreen {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px 20px;
+  animation: fadeIN 0.8s linear;
 }
 
 .main-chatscreen__timestamp {
