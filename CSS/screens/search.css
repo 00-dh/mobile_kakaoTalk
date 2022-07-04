@@ -123,3 +123,26 @@ span {
   bottom: 5px;
   right: 5px;
 }
+
+@keyframes heart-beat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.search-openchat-room__profile__like i {
+  margin-right: 5px;
+}
+
+.search-openchat-room__profile__like:hover i {
+  animation: heart-beat 1s ease-in-out infinite;
+}
