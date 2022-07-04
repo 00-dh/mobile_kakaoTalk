@@ -26,3 +26,28 @@
   padding: 10px 0px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+@keyframes hidesplash-screen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  z-index: 10;
+  background-color: gold;
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: hidesplash-screen 0.4s ease-in-out forwards;
+  animation-delay: 2s;
+}
