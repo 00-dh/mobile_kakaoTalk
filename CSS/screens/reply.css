@@ -1,81 +1,73 @@
 .reply {
+  display: flex;
+  align-items: center;
   position: fixed;
   bottom: 0;
-  width: 100%;
   background-color: white;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 25px;
-  align-items: center;
+  width: 100%;
+  padding: 10px 0px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
 }
 
-.reply i {
-  opacity: 0.5;
-}
-
-.reply-column:last-child button > i {
-  opacity: 1;
-}
-
-.reply .reply-column:first-child {
+.reply-column:first-child {
   width: 10%;
+  display: flex;
+  justify-content: center;
 }
 
-.reply .reply-column:last-child {
-  width: 90%;
+.reply-column:last-child {
+  width: 88%;
   position: relative;
 }
 
-.reply input {
-  height: 30px;
+.reply-column input::placeholder {
+  padding: 10px;
+}
+
+.reply-column input {
   width: 100%;
-  border: 0.9px solid rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  height: 30px;
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 30px;
   transition: all 0.3s ease-in-out;
 }
 
-.reply-column:last-child > i,
+.reply-column:last-child i,
 .reply-column:last-child button {
   position: absolute;
-  right: 0px;
-  top: 4px;
 }
-
 .reply-column:last-child > i {
-  right: 37px;
   top: 16px;
+  right: 50px;
 }
-
-.reply-column button {
+.reply-column:last-child button {
   background-color: gold;
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   border: none;
   border-radius: 50%;
+  top: 6px;
+  right: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.reply-column button:focus,
-.reply-column button:active {
-  outline: none;
-}
-
-.reply input:focus {
-  width: 98vw;
-  transform: translateX(-13.7%) translateY(-80px);
-}
-
 .reply .reply-column:first-child,
 .reply .fa-face-smile,
-.reply button {
+.reply .reply-column:last-child button {
   transition: opacity 0.3s ease-in-out;
 }
 
 .reply:focus-within .reply-column:first-child,
 .reply:focus-within .fa-face-smile,
-.reply:focus-within button {
+.reply:focus-within .reply-column:last-child button {
   opacity: 0;
+}
+
+.reply:focus-within input {
+  transform: translateX(-8%) translateY(-80px);
+  width: 95vw;
 }
 
 .reply:focus-within {
